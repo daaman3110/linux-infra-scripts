@@ -1,0 +1,15 @@
+# Editor files
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Backups
+*~
+
+# System
+.DS_Store
+
+# Shell history (if ever copied)
+.bash_history
