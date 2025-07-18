@@ -4,11 +4,18 @@ This repository contains a collection of real-world Bash scripts I wrote while l
 
 These scripts simulate problems faced by SREs, backend engineers, and system administrators at scale — like CPU spikes, disk full conditions, service downtime, log bloating, and user management issues.
 
-> uilt as part of my **6-month Infra Builder Roadmap**.
+> Built as part of my **6-month Infra Builder Roadmap**.
 
 ---
 
 ## Categories
+
+### Authentication Scripts
+
+Simulates login password verification with limited retry attempts.
+
+- `auth_scripts/password_checker.sh`
+
 
 ### System Monitoring
 Scripts that detect CPU load, memory usage, zombie processes.
@@ -49,6 +56,7 @@ Mini practice scripts and loop experiments.
 - `welocome.sh`
 - `backup_script.sh`
 - `touch`
+
 
 ---
 
